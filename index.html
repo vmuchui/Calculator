@@ -8,13 +8,30 @@
       <script src="js/jquery-3.3.1.js"></script>
       <script src="js/scripts.js"></script>
   </head>
-  <body>
+  <body class="container">
     <h1>Calculator</h1>
-    <form id="add">
-        <div class="form-group"> <label for="add1">1st number:</label> <input id="add1" class="form-control" type="text"> </div>
-        <div class="form-group"> <label for="add2">2nd number:</label> <input id="add2" class="form-control" type="text"> </div>
-        <button type="submit" class="btn btn-primary">Add!</button>
-    </form>
-    <div id="output"></div>
+    <br>
+    <div class="card-deck">
+      <div class="card text-center">
+        <h2 class="card-title">Addition</h2>
+        <form id="add">
+            <div class="form-group"> <label for="add1">1st number:</label> <input id="add1" class="form-control" type="text"> </div>
+            <div class="form-group"> <label for="add2">2nd number:</label> <input id="add2" class="form-control" type="text"> </div>
+            <button type="submit" class="btn btn-primary">Add!</button>
+        </form>
+        <div id="output"></div>
+      </div>
+      <div class="card text-center">
+        <h2 class="card-title">Multiplication</h2>
+        <form id="multiply">
+            <div class="form-group"> <label for="multiply1">1st number:</label> <input id="multiply1" class="form-control" type="text"> </div>
+            <div class="form-group"> <label for="multiply2">2nd number:</label> <input id="multiply2" class="form-control" type="text"> </div>
+            <button type="submit" class="btn btn-primary">Multiply!</button>
+        </form>
+        <div id="output2"></div>
+      </div>
+
+    </div>
+
   </body>
 </html>
